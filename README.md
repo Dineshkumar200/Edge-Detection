@@ -86,7 +86,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-## Output:
+## <br/><br/><br/><br/>Output:
 ### SOBEL EDGE DETECTOR
 ![di1](https://user-images.githubusercontent.com/75235789/168871322-8af3ee77-0813-422e-bd0a-c12cd9409436.jpg)
 
@@ -95,9 +95,9 @@ cv2.destroyAllWindows()
 ![di2](https://user-images.githubusercontent.com/75235789/168871365-f902b403-3c06-4064-a7b8-610b8ebb7b9b.jpg)
 
 
-### CANNY EDGE DETECTOR
+### <br/><br/><br/><br/><br/>CANNY EDGE DETECTOR
 ![di3](https://user-images.githubusercontent.com/75235789/168871380-8b6db311-c468-4d00-8c30-f1b63ef5fdeb.jpg)
 
 
-## Result:
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
