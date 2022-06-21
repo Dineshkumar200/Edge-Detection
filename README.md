@@ -7,23 +7,21 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-Import the necessary modules.
+Import the required packages for further process.
+
+
 ### Step2:
-For performing edge detection on a image.
-Sobel
-```
-sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,5)
-sobely=cv2.Sobel(img,cv2.CV_64F,0,1,5)
-sobelxy=cv2.Sobel(img,cv2.CV_64F,1,1,5)
-```
-Laplacian
-```
-Laplacian=cv2.Laplacian(img,cv2.CV_64F)
-Canny
-canny=cv2.Canny(img,120,150)
-```
+Read the image and convert the bgr image to gray scale image.
+
 ### Step3:
-Display all the images with their respective edge detected images.
+Use any filters for smoothing the image to reduse the noise.
+
+### Step4:
+Apply the respective filters -Sobel,Laplacian edge dectector and Canny edge dector.
+
+### Step5:
+Display the filtered image using plot and imshow.
+
  
 ## Program:
 
